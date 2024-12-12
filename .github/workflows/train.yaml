@@ -23,7 +23,7 @@ jobs:
           dvc repro
 
           git fetch --prune
-          dvc metrics diff master > report.md
+          dvc metrics diff main > report.md
 
           echo "## Validating results by region" >> report.md
           echo "![by Region](by_region.png)" >> report.md
