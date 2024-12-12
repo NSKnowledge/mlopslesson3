@@ -1,0 +1,4 @@
+[core]
+    remote = myremotedata
+['remote "myremotedata"']
+    url = C:\Users\u350272\Desktop\projectdata\mlopslesson3data
